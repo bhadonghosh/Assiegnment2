@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: #412567;
+      background-color: #1A0B2E;
     font-family: "Inter",sans-serif;
 }
 
@@ -12,6 +12,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    background-color: #1A0B2E;
 }
 .nav-items{
     display: flex;
@@ -138,4 +139,102 @@ body{
     display: flex;
     padding: 16px;
     justify-content: center;
+}
+/* banner 2 */
+
+.banner2{
+    width: 1500px;
+    height: 646px;
+   background-color: #1A0B2E;
+}
+.ban2{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+.bannertext{
+      align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 80%;
+
+}
+.items{
+    display: flex;
+    margin-top: 160px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.item{
+    width: 240px;
+    height: 94px;
+    color: #00FF88;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.t{
+    color: #FFFFFF;
+    opacity: 80%;
+}
+
+/* Reason  */
+.reasons h2{
+color: #FFFFFF;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.reason{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    color: #FFFFFF;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.reason h3{
+    margin-top: 16px;
+    margin-bottom: 16px ;
+    
+}
+.reason p{
+    opacity: 60%;
+}
+.reason1{
+    grid-row: span 2;
+    background-color: #351165;
+    border-radius: 15px;
+    padding: 40px ;
+}
+.reason2{
+    grid-column: span 2;
+    background-color: #351165;
+    border-radius: 15px;
+        padding: 40px ;
+
+}
+.reason3{
+    grid-column: span 2;
+    background-color: #351165;
+    border-radius: 15px;
+        padding: 40px ;
+
+}
+.reason4{
+    grid-column: span 2;
+    background-color: #351165;
+    border-radius: 15px;
+        padding: 40px ;
+
+}
+.reason5{
+    background-color: #351165;
+    border-radius: 15px;
+        padding: 40px ;
+
 }
