@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: #412567;
     font-family: "Inter",sans-serif;
@@ -15,10 +18,13 @@ body{
     gap: 32px ;
     /* list-style: none; */
         list-style: none;
+        
 }
 .nav-items a{
     text-decoration: none;
     color: #FFFFFF;
+    
+   
 }
 .btn{
     background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8 );
@@ -43,21 +49,93 @@ body{
 }
 .navbar h2{
     color: #FFFFFF;
+    margin-left: 200px;
 }
 .linear{
     background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
-}
-.banner-container{
-    background-image: url('../assets/hero-bg.png');
-    width: 1600px;
-   background-size: cover;
-   height: 760px;
-   width: 100%;
-}
-.main{
-    align-items: center;
+    
 }
 
+.main{
+    background-image: url('../assets/hero-bg.png');
+    height: 760px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.circle{
+    position: relative;
+    left: 590px;
+    top: 101px;
+}
+.mike{
+    position: relative;
+    left: 350px;
+}
+.logo{
+    position: relative;
+    top: -250px;
+    left: 800px;
+    background-color: #00FF88 ;
+    border-radius: 20px;
+    padding: 16px;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    gap: 8px;
+}
+.first{
+    color: #FFFFFF;
+}
+.second{
+    color: #FFFFFF;
+    opacity: 80%;
+}
+.ban-footer{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    gap: 8px;
+    justify-content: center;
+
+}
+.btn2{
+  width: 147px;
+  height: 44px;
+  padding: ;  
+  color: #00FF88;
+  background-color: transparent;
+  border-color: #00FF88;
+  border-radius: 20px;
+ 
+  font-size: 16px;
+  font-weight: 600px;
+  margin-top: 12.5px;  
+  align-items: center;
+}
+.btn3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn4{
+      background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8 );
+    width: 201px;
+    height: 44px;
+    border-radius: 20px ;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+}
