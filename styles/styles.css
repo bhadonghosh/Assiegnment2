@@ -238,3 +238,81 @@ margin-bottom: 40px;
         padding: 40px ;
 
 }
+.videos{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 120px;
+    gap: 30px;
+}
+.video{
+    width: 380px;
+    height: 380px;
+}
+.episodes h2{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 120px;
+    text-align: center;
+}
+.video h3{
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+.video p{
+    color: #FFFFFF;
+    font-size: 16px;
+    opacity: 60%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+.te{
+    color: #00FF88 ;
+    display: flex;
+    gap: 6px;
+
+}
+
+
+.host{
+    background-color: #351165;
+    align-items: center;
+    display: flex;
+    width: 1200px;
+    height: 280;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.host1{
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 24px;
+    margin-right: 40px;
+}
+.host1 h3{
+    font-size: 32px ;
+    font-weight: 896px;
+    margin-bottom: 16px;
+    text-align: left;
+
+}
+
+.host1 p{
+margin-top: 16px;
+    opacity: 60%;
+    text-align: left;
+
+}
+.icons{
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    margin-top: 16px;
+    margin-left: 24px;
+}
+.imgs{
+    margin: 40px;
+}
