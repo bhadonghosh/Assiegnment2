@@ -557,6 +557,33 @@ flex-direction: column;
     margin-left: 24px;
 
 }
+/* footer  */
+.end{
+    justify-content: center;
+    width: 550px;
+    height: 268px;
+    background-repeat: no-repeat;
+}
+.end h1{
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 24px;
+    padding-top: 50px;
+}
+.icons1{
+    align-items: center;
+    gap: 40px;
+    margin-top: 32px;
+    margin-bottom: 32px ;
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    color: #FFFFFF;
+    opacity: 60%;
+    margin-bottom: 100px;
+    text-align: center;
 
+}
 
 }
