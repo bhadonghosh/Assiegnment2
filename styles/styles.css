@@ -522,6 +522,41 @@ flex-direction: column;
     width: 500px;
     height: 325px ;
 }
+.hosts h2{
+    font-size: 32px;
+}
+.host{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 483px;
+    margin-left: 16px;
+
+}
+.host1 h3{
+    font-size: 24px ;
+    font-weight: 452px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.host1 p{
+    font-weight: 353px;
+    text-align: center;
+    font-size: 16px;
+}
+.imgs{
+    margin: 40px;
+}
+
+    .icons{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    list-style: none;
+    margin-top: 16px;
+    margin-left: 24px;
+
+}
 
 
 }
